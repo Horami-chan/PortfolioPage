@@ -242,6 +242,58 @@
                 color: #00f3ff;
                 transform: scale(1.05);
             }
+
+        /* === MOBILE RESPONSIVE STYLES === */
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px 20px;
+            }
+
+            .hero-img {
+                margin-right: 0;
+                margin-bottom: 25px;
+                width: 200px;
+                height: 200px;
+            }
+
+            .hero-text h1 {
+                font-size: 2.2em;
+            }
+
+            .contacts-sidebar {
+                flex-direction: column;
+                gap: 15px;
+                padding: 20px;
+            }
+
+                .contacts-sidebar h3 {
+                    border-right: none;
+                    padding-right: 0;
+                    border-bottom: 1px solid #333;
+                    padding-bottom: 10px;
+                    width: 100%;
+                }
+
+            .skills-container {
+                justify-content: center;
+            }
+
+            .gallery {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .gallery-img {
+                width: 100%;
+                height: 250px;
+            }
+
+            .project {
+                padding: 20px;
+            }
+        }
     </style>
 </head>
 <body>
